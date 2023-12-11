@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --black: #000;
+  --border-color: #ddddddb9;
+  --fb-color: #385185;
+  --gray: #666;
+  --primary: #4cb5f9;
+  --white: #ffffff;
+}
+.container-custom {
+  margin: auto;
+  width: 1000px;
+}

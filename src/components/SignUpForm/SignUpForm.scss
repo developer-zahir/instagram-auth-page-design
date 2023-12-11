@@ -1,0 +1,141 @@
+.signup-form-wraper {
+  width: 400px;
+
+  .signup-page-logo {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png);
+    background-position: 0px -52px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: inline-block;
+    height: 51px;
+    margin-bottom: 15px;
+    width: 175px;
+    transition: .4s;
+    &:hover{
+      opacity: .8;
+    }
+  }
+  h4 {
+    color: #666;
+    font-weight: 500;
+  }
+  .login-wiht-facebook {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    margin: 20px 0;
+
+    a {
+      background: #1877f2;
+      border-radius: 6px;
+      color: var(--white);
+      display: block;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 3px 30px 9px 30px;
+    }
+    span {
+      display: inline-block;
+      font-size: 20px;
+      transform: translateY(5px);
+    }
+  }
+  .signup-form {
+    border: 1px solid var(--border-color);
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+
+    input {
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      font-size: 13px;
+      margin: 5px 0;
+      outline: unset;
+      padding: 12px;
+      transition: 0.4s;
+      width: 100%;
+
+      &:focus {
+        border-color: #38508560 !important;
+      }
+    }
+    input[type="submit"] {
+      background-color: var(--primary);
+      border: unset;
+      border-radius: 3px;
+      color: var(--white);
+      cursor: pointer;
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 5px 0 10px 0;
+      outline: unset;
+      padding: 12px;
+      transition: 0.4s;
+      width: 100%;
+
+      &:hover {
+        background: #42a6e9;
+      }
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+
+      a {
+        color: #1877f2;
+        transition: .4s;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .forgot-password {
+    a {
+      color: var(--black);
+      font-size: 13px;
+    }
+  }
+  .signup-form-footer {
+    border: 1px solid var(--border-color);
+    margin-top: 13px;
+    padding: 20px 40px;
+    text-align: center;
+    a {
+      color: var(--primary);
+      font-weight: 500;
+      transition: 0.4s;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .get-app-section {
+    margin-top: 30px;
+    text-align: center;
+
+    .app-group {
+      align-items: center;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+
+      a {
+        background: #000;
+        display: inline-block;
+        height: 40px;
+        overflow: hidden;
+        text-align: right;
+        width: 120px;
+      }
+      img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+  }
+}
